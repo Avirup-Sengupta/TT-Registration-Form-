@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Tennis Championship Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="top_h">
+
+    Table Tennis Championship Registration
+
+
+  </div>
+
+
+  <div class="main_cont">
+    <form action="#">
+      <label for="first">First Name:</label>&nbsp;
+      <input type="text" name="firstname" id="first">&nbsp;&nbsp;
+      <label for="last">Last Name:</label>&nbsp;
+      <input type="text" name="lastname" id="last">
+
+      <p>
+        <label for="add">Address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="address" id="add">&nbsp;&nbsp;
+        <label for="pin">Pincode:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="pin" id="pin">
+      </p>
+      </br>
+      </br>
+
+      <h3 style="text-align:left; font-weight: bold;">
+        Select Catagory</h3>
+
+      <input type="radio" name="tt" id="under12">
+      <label for="under12"> Mens Singles</label>
+
+      <div>
+        <input type="radio" name="tt" id="under16">
+        <label for="under16"> Womens Singles </label>
+      </div>
+
+      <div>
+        <input type="radio" name="tt" id="under19">
+        <label for="under19"> Mens Double</label>
+      </div>
+
+      <div>
+        <input type="radio" name="tt" id="mens">
+        <label for="mens"> Womens Double </label>
+      </div>
+      <div>
+        <input type="radio" name="tt" id="women">
+        <label for="women"> Team Battle </label>
+      </div>
+      </br>
+      </br>
+
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="password">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" name="password" id="password">
+      </div>
+      </br>
+      </br>
+
+      <div>
+        <label for="division"> Select Age Group</label>
+        <select name="division" id="division">
+          <option value="kids">U-12</option>
+          <option value="teens">U-16</option>
+          <option value="young adults"><U-19>U-19</option>
+          <option value="men_adults">Mens</option>
+          <option value="wom_adults">Womens</option>
+        </select>
+      </div>
+
+      </br>
+      </br>
+
+      <button class="btn">Register</button>
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>

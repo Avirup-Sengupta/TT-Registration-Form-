@@ -1,0 +1,29 @@
+.main_cont {
+
+  background-color: #f7f2c3;
+  margin: 0px;
+  padding: 29px;
+  width: 100%;
+}
+
+.btn {
+  padding: 9px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.top_h {
+
+  height: 60px;
+  background-color: #f5d2c9;
+  margin: 0px;
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 25px;
+  text-align: center;
+  color: black;
+  width: 100%;
+
+
+}
